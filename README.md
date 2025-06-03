@@ -1,22 +1,12 @@
-# 🧠 Habit Tracker App
+# React + Vite
 
-A simple yet powerful Habit Tracker built with **React.js**. Add, edit, delete, and mark your daily habits as complete — all with a clean, minimal UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ✅ Add new habits
-- 📝 Inline edit existing habits
-- 🗑️ Delete habits
-- ✅ Mark habits as complete
-- 🎯 Visual UI feedback with dynamic styles
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-
-- **React.js** (Functional Components + Hooks)
-- **CSS3** for styling
-- Optional: `localStorage` or Firebase (for persistence – future scope)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
